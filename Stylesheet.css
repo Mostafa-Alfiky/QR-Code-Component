@@ -1,0 +1,106 @@
+body {
+    background-color:hsl(212, 45%, 89%);
+}
+
+.The_whole_content {
+    background-color: white;
+    border-radius: 12px;
+    width: 230px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.The_QR_photo {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.Text_div1 {
+    width: 96%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.Text_div2 {
+    width: 96%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.text1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 18px;
+}
+.text2 {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+p {
+    font-family: 'Outfit';
+}
+
+footer {
+    font-family: 'Outfit';
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    background-color: lightgray;
+    width: 230px;
+    border-radius: 12px;
+    padding: 0.5%;
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 0);
+    margin-bottom: 10px;
+}
+
+.footer_text{
+    margin: 0px;
+}
+
+@media (max-width:450px) {
+    .The_whole_content {
+        width: 300px;
+        height: 75%;
+    }
+
+    .Text_div2 {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .text2  {
+        font-size: 18px;
+    }
+
+    .text1 { 
+        font-size: 21px;
+    }
+
+    footer {
+        width: 300px;
+    }
+    
+    .footer_text {
+        font-size: 18px;
+    }
+}
