@@ -41,6 +41,7 @@
  - accessabilaty
  - writing clear comments 
  - Organizing my code
+ - How change font size proportional to screen width
 
 # Ask why?
  - Why using postion property instead of any other property 
