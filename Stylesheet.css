@@ -5,8 +5,8 @@ body {
 main {
     background-color: white;
     border-radius: 17px;
-    width: 300px;
-    padding: 18px;
+    width: 270px;
+    padding: 17px;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -43,12 +43,12 @@ img {
 .text1 {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
 }
 .text2 {
     color: hsl(220, 15%, 55%);
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 p {
@@ -60,7 +60,7 @@ footer {
     font-weight:bold;
     text-align: center;
     background-color: lightgray;
-    width: 300px;
+    width: 270px;
     border-radius: 13px;
     padding: 0.5%;
     position: fixed;
@@ -72,5 +72,5 @@ footer {
 
 .footer_text{
     margin: 0px;
-    font-size: 18px;
+    font-size: 16px;
 }
